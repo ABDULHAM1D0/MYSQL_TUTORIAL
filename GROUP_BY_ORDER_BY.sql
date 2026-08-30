@@ -22,6 +22,10 @@ SELECT gender, AVG(age), MAX(age), MIN(age), STD(age), COUNT(age)
 FROM parks_and_recreation.employee_demographics
 GROUP BY gender;
 
+SELECT gender, AVG(salary)
+FROM parks_and_recreation.employee_salary
+GROUP BY gender;
+
 
 -- ORDER BY
 
