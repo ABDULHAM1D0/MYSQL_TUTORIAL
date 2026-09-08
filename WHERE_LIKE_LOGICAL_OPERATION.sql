@@ -49,3 +49,7 @@ WHERE department_id >= 2;
 SELECT *
 FROM parks_and_recreation.employee_salary
 WHERE last_name LIKE '%A__%';
+
+SELECT *
+FROM parks_and_recreation.employee_salary
+WHERE first_name LIKE '%__A__%';
